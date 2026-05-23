@@ -1,0 +1,4 @@
+# __init__.py
+
+# Importing the application module from your package
+from .app import app  # Or 'from .main import app', depending on your file structure
