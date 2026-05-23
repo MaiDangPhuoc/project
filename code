@@ -1,4 +1,20 @@
-# __init__.py
+"""
+Emotion Detection Package
 
-# Importing the application module from your package
-from .app import app  # Or 'from .main import app', depending on your file structure
+This package provides a simple interface to analyze text and detect 
+emotions (anger, disgust, fear, joy, sadness) using the Watson NLP API.
+
+Usage:
+    from EmotionDetection import emotion_detector
+    result = emotion_detector("I am so happy today!")
+"""
+
+__version__ = "1.0.0"
+__author__ = "Your Name"
+
+# Import the main function so it is easily accessible at the package level
+from .emotion_detection import emotion_detector
+
+# Explicitly define the public API of this package. 
+# This restricts what gets imported if someone runs: `from EmotionDetection import *`
+__all__ = ['emotion_detector']
