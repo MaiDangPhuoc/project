@@ -1,20 +1,31 @@
-# AI-Based Emotion Detector
+Emotion Detector
 
-An AI-powered web application that detects emotions from user-provided text inputs. This application uses IBM Watson's Natural Language Processing (NLP) library integrated with a Flask web framework backend.
+An AI-based web application that detects emotions from user-provided text using the Watson NLP library. This project was developed as part of the final project for building and deploying an AI-powered application with Flask.
 
-## Project Description
-The Emotion Detector application analyzes text sentences and provides an emotional breakdown across five distinct categories:
-* Joy
-* Anger
-* Disgust
-* Sadness
-* Fear
+📌 Project Overview
 
-It also explicitly calculates and presents the **dominant emotion** of the input text.
+The Emotion Detector application analyzes text input and identifies emotions such as:
 
-## Features
-* **Watson NLP Integration:** High-accuracy emotion extraction.
-* **Flask Web Interface:** Clean and interactive user interface deployment.
-* **Robust Error Handling:** Seamlessly intercepts blank inputs or bad requests (Status 400).
-* **Unit Tested:** Includes comprehensive unit tests ensuring precise detection results.
-* **Pylint Compliant:** Adheres strictly to PEP 8 standards with clean code styling.
+Joy
+Anger
+Sadness
+Fear
+Disgust
+
+The application uses the Watson NLP library for emotion analysis and is deployed as a Flask web application with proper error handling, unit testing, and static code analysis.
+
+🚀 Features
+Detect emotions from text input
+AI-powered emotion analysis using Watson NLP
+Flask-based web interface
+Packaged Python application
+Unit testing support
+Error handling for invalid input
+Static code analysis for code quality
+🛠️ Technologies Used
+Python
+Flask
+Watson NLP Library
+HTML/CSS
+UnitTest
+Pylint
